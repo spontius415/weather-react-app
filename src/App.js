@@ -51,7 +51,7 @@ export default function App() {
             </div>
             <div className="col-6 currentWeatherTemperature">
               <span id="currentTemperature">{Weather.temperature}</span>
-              <a href="." id="celsiusLnk" className="active">
+              <a href="." id="fahrLink" className="active">
                 °C
               </a>
             </div>
@@ -70,7 +70,7 @@ export default function App() {
       <div>
         <a
           id="githubLink"
-          href="https://github.com/MilaBorodkina/react-weather-app"
+          href="https://github.com/spontius415/weather-react-app"
           target="_blank"
           rel="noreferrer"
         >
