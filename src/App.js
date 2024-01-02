@@ -52,7 +52,7 @@ export default function App() {
             <div className="col-6 currentWeatherTemperature">
               <span id="currentTemperature">{Weather.temperature}</span>
               <a href="." id="fahrLink" className="active">
-                °C
+                °F
               </a>
             </div>
           </div>
@@ -76,7 +76,7 @@ export default function App() {
         >
           Open-source code
         </a>
-        by Sarah Pontius
+        built by Sarah Pontius
       </div>
     </div>
   );
